@@ -11,3 +11,17 @@
 //On click of the h1
 //Take the value from the input
 //Place the result of the conditional in the paragraph
+function performanceTest(){
+          let sLen = 30;
+          let loops = 500000; // YOU MAY NOT CHANGE THE NUMBER OF LOOPS IN ANY WAY !!
+          let someLongDataString = "";
+          let source = "X" * 30;
+
+            // DO NOT CHANGE THE ACTUAL FOR LOOP IN ANY WAY !!
+            // in other words, you may not change: for (INITIALIZATION; CONDITION; INCREMENT/DECREMENT)
+            for (var i = 0; i < loops; i++) 
+            {
+                 someLongDataString = source.Concat(Enumerable.Repeat(source, loops)); //will multiply the string and concatenate it here then break out of the loop
+                break;
+            }
+        }
