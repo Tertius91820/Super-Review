@@ -24,4 +24,5 @@ function performanceTest(){
                  someLongDataString = source.Concat(Enumerable.Repeat(source, loops)); //will multiply the string and concatenate it here then break out of the loop
                 break;
             }
-        }
+        }performanceTest();
+        
